@@ -330,6 +330,7 @@ def add_standard_navbar_items():
 		navbar_settings.append("settings_dropdown", item)
 
 	for item in standard_help_items:
-		navbar_settings.append("help_dropdown", item)
+		pass
+		# navbar_settings.append("help_dropdown", item)
 
 	navbar_settings.save()
