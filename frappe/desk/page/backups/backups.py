@@ -11,7 +11,7 @@ def get_context(context):
 	def get_time(path):
 		dt = os.path.getmtime(path)
 		return convert_utc_to_user_timezone(datetime.datetime.utcfromtimestamp(dt)).strftime(
-			"%a %b %d %H:%M %Y"
+			"%Y-%m-%d:%H:%M:%S"
 		)
 
 	def get_encrytion_status(path):
